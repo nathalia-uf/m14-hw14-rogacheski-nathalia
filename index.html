@@ -13,27 +13,27 @@
   <nav class="py-5 navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
       <i class="fs-1 fa-solid fa-heart"></i>
-      <a class="fs-2 navbar-brand" href="#">Nathalia Rogacheski</a>
+      <a class="fs-2 navbar-brand" href="#Nathalia">Nathalia Rogacheski</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">About</a>
+            <a class="nav-link active" aria-current="page" href="#About">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Job Goals</a>
+            <a class="nav-link" href="#Job">Job Goals</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Dropdown
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Interests</a></li>
-              <li><a class="dropdown-item" href="#">Hobbies</a></li>
+              <li><a class="dropdown-item" href="#Interests">Interests</a></li>
+              <li><a class="dropdown-item" href="#Hobbies">Hobbies</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Education</a></li>
+              <li><a class="dropdown-item" href="#Education">Education</a></li>
             </ul>
           </li>
         </ul>
@@ -42,12 +42,16 @@
   </nav>
   <div class="d-flex m-5 bg-light p-3">
   <main>
-    <p class="fs-2">About Nathalia</p>
+    <p class="fs-2" id="About">About Nathalia</p>
     <p class="fs-6 p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae accusantium magnam quisquam pariatur dolore! Neque, explicabo vero. Itaque earum ipsum deserunt non molestiae, est, porro labore aut sapiente enim eveniet.</p>
-    <img src="images/pink-flowers.png" class="img-fluid py-5 w-100" alt="pink flowers">
-    <p class="fs-3">Job Goals</p>
+    <div class="flowers">
+      <div class="row h-25">
+        <img src="images/pink-flowers.png" class="img-fluid w-100" alt="pink flowers">
+      </div>
+    </div>
+    <p class="fs-3" id="Job">Job Goals</p>
     <p class="fs-6 p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae accusantium magnam quisquam pariatur dolore! Neque, explicabo vero. Itaque earum ipsum deserunt non molestiae, est, porro labore aut sapiente enim eveniet.</p>
-    <p class="fs-3">Interests</p>
+    <p class="fs-3" id="Interests">Interests</p>
       <div>
         <div class="card" style="width: 18rem;">
             <img src="images/disney.jpg" class="card-img-top" alt="caste photo">
@@ -68,7 +72,7 @@
           </div>
         </div>
       </div>
-    <p class="fs-3">Hobbies</p>
+    <p class="fs-3" id="Hobbies">Hobbies</p>
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -79,7 +83,7 @@
         <div class="carousel-item active">
           <img src="images/snowboarding.jpg" class="d-block w-100" alt="Snowboarding bg-light">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Snowboarding/h5>
+            <h5>Snowboarding</h5>
             <p>I enjoy snowboarding.</p>
           </div>
         </div>
@@ -107,12 +111,15 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-    <p class="fs-3">Education</p>     
+    <p class="fs-3" id="Education">Education</p>     
       <div class="container">
           <!-- Columns are always 50% wide, on mobile and desktop -->
         <div class="row">
-          <div class="col-6">Bachelors Degree from the University of Central Florida</div>
-          <div class="col-6">Masters Degree from the University of Florida</div>
+          <div class="col-4">
+              <img src="images/nathaliar.png" class="w-100" alt="UCF graduation">
+          </div>
+          <div class="col-4">Bachelors Degree from the University of Central Florida</div>
+          <div class="col-4">Masters Degree from the University of Florida</div>
         </div>
       </div>
   </main>
