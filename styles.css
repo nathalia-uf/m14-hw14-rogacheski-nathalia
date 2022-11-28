@@ -4,8 +4,3 @@
     --white: hsl(216, 100%, 95%);
     --highlight: rgba(251, 255, 38, 0.493);
   }
-
-  .navbar-nav {
-    color: darkblue;
-    font: 20;
-  }
