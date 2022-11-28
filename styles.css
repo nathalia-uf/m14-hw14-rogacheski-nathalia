@@ -1,0 +1,11 @@
+:root {
+    --primary: hsl(217, 99%, 26%);
+    --gray: hsl(217, 11%, 64%);
+    --white: hsl(216, 100%, 95%);
+    --highlight: rgba(251, 255, 38, 0.493);
+  }
+
+  .navbar-nav {
+    color: darkblue;
+    font: 20;
+  }
