@@ -4,3 +4,6 @@
     --white: hsl(216, 100%, 95%);
     --highlight: rgba(251, 255, 38, 0.493);
   }
+.image-fluid {
+  max-height: 20px;
+}
